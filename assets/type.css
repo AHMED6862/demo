@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 350px;
+    width: 100pv;
+   background:linear-gradient(rgb(0, 0, 0, .5), rgb(7, 7, 7, .5)), url(./wallpaperflare.com_wallpaper\ \(2\).jpg);
+   background-position: center;
+   display: flex;
+   align-items: end;
+}
+.main{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.main2{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: centr;
+    color: white;
+    padding-left: 4%;
+    
+}
+.main3{
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 3%;
+
+}
+.anker{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    -webkit-transition-duration: 1s;
+    transition-duration:1s ;
+}
+.anker:hover{
+    text-decoration: underline;
+}
+#big{
+font-size: 32px;
+}
+#para{
+font-size: 18px;
+}
+/* 2nd */
+.container2{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.big2{
+    font-size: 50px;
+}
+.para2{
+    width: 50%;
+}
+.main4{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.but{
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    color: rgb(13, 104, 13);
+    font-weight: 600;
+    background-color: transparent;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    border-color: rgb(13, 104, 13) ;
+    margin: 0 10px;
+}
+.but:hover{
+    background-color: rgb(13, 104, 13);
+    color: white;
+}
+/* 3rd */
+.container3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.main5{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    background-color: cornflowerblue;
+   overflow: hidden;
+   position: relative;
+}
+.main5:hover{
+    height: 360px;
+   top: -10px;
+}
+
+.start{
+    font-size: 20px;
+}
+.end{
+    font-size: 20px;
+}
+img{
+    height: 200px;
+    width: 350px;
+    -webkit-transition-duration: 1s;
+    transition-duration: 0.5s;
+    border: 2px solid cornflowerblue;
+
+    
+}
+img:hover{
+    scale: 110%;
+    transform: scaleX();
+}
+@media screen and (max-width:750px) {
+    .anker{
+        font-size: 16px;
+    }
+    #big{
+        font-size: 28px;
+    }
+    #para{
+        font-size: 15px;
+    }
+    .main{
+        height: 60px;
+    }
+    .big2{
+       font-size: 40px;
+    }
+    .para2{
+        font-size: 13px;
+    }
+    .but{
+        font-size: 15px;
+        height: 35px;
+    }
+    .main4{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width:580px) {
+    .anker{
+        font-size: 13px;
+    }
+    #big{
+        font-size: 23px;
+    }
+    #para{
+        font-size: 12px;
+    }
+    .main{
+        height: 50px;
+    }
+    .big2{
+        font-size: 30px;
+     }
+     .para2{
+         font-size: 12px;
+     }
+     .but{
+         font-size: 15px;
+         height: 35px;
+     }
+     .main4{
+         width: 60%;
+     }
+    
+}
+@media screen and (max-width:420px) {
+    .anker{
+        font-size: 10px;
+    }
+    #big{
+        font-size: 19px;
+    }
+    #para{
+        font-size: 9px;
+    }
+    .main{
+        height: 40px;
+    }
+    .big2{
+        font-size: 25px;
+     }
+     .para2{
+         font-size: 12px;
+     }
+     .but{
+         font-size: 15px;
+         height: 35px;
+     }
+     .main4{
+         width: 70%;
+     }
+    
+    
+}
+@media screen and (max-width:350px) {
+    .anker{
+        font-size: 7px;
+    }
+    #big{
+        font-size: 14px;
+    }
+    #para{
+        font-size: 6px;
+    }
+    .main{
+        height: 30px;
+    }
+    .big2{
+        font-size: 20px;
+     }
+     .para2{
+         font-size: 12px;
+     }
+     .but{
+         font-size: 12px;
+         height: 35px;
+     }
+     .main4{
+         width: 80%;
+     }
+    
+    
+}
+
+
